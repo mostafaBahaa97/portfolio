@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
 const Footer = () => {
@@ -15,12 +15,12 @@ return (
             <p>All rights reserved. &copy; 2025 Mostafa Bahaa </p>
             <p>
                 Follow us on{' '}
-                <a href="https://twitter.com/yourcompany" className="text-blue-400">
-                    <FontAwesomeIcon icon={faTwitter} />
+                <a href="https://github.com/mostafaBahaa97" className="text-blue-400">
+                    <FontAwesomeIcon icon={faGithubSquare} />
                 </a>{' '}
                 and{' '}
-                <a href="https://facebook.com/yourcompany" className="text-blue-400">
-                    <FontAwesomeIcon icon={faFacebook} />
+                <a href="https://www.linkedin.com/in/mostafabahaa899/" className="text-blue-400">
+                    <FontAwesomeIcon icon={faLinkedin} />
                 </a>
             </p>
         </div>
